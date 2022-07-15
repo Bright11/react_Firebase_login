@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+   justify-content: space-between;
+    height: 50px;
+    object-fit: contain;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+.searchform{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    
+}
+.navitem{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+.mysearchinput{
+    padding: 5px;
+    width: 100%;
+}
+.navslink{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    color: white;
+}
+.navslink,li{
+ list-style: none;
+ margin-left: 5px;
+ margin-right: 5px;
+ cursor: pointer;
+}
+.mylogo{
+    width: 40px;
+    height: 40px;
+}
+.searchsubmit{
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
